@@ -1,0 +1,29 @@
+.text-button {
+  border: none;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 20px;
+  border-radius: 20px;
+  margin: 20px auto;
+  display: block;
+  background: linear-gradient(180deg, #00FF57 0%, #00BD40 100%);
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    background: darken(#00FF57, 10%);
+  }
+
+  &:active {
+    background: darken(#00FF57, 15%);
+  }
+}
+
+@media (min-width: $xl) {
+  .text-button {
+    padding: 12px 30px;
+  }
+}

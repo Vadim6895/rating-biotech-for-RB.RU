@@ -1,0 +1,41 @@
+.share {
+    margin: 0 auto;
+    width: 140px;
+
+
+  &__title {
+    color: #BDBDBD;
+    text-align: center;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+
+  &__link {
+    width: 23px;
+    height: 23px;
+    background-color: white;
+    display: block;
+    border-radius: 5px;
+    background-color: #505050;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      background-color: #00FF57;
+
+      svg {
+        fill: #000;
+      }
+    }
+  }
+
+  &__icon {
+    fill: #BDBDBD;
+  }
+}

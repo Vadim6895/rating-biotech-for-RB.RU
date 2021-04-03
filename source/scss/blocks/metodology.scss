@@ -1,0 +1,53 @@
+.metodology {
+  padding: 20px;
+
+  &__title {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  &__text {
+    color: #BDBDBD;
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
+
+@media (min-width: $md) {
+  .metodology {
+    &__title {
+      font-size: 18px;
+    }
+
+    &__text {
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
+}
+
+@media (min-width: $xl) {
+  .metodology {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    &__title {
+      font-size: 24px;
+    }
+
+    &__text {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+}
+
+@media (min-width: $xxl) {
+  .metodology {
+    max-width: 1200px;
+
+    &__title {
+      font-size: 28px;
+    }
+  }
+}
