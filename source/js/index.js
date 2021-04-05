@@ -1,3 +1,2 @@
-import './main';
-
 import './menu';
+import './popup';

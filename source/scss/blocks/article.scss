@@ -48,7 +48,9 @@
 @media (min-width: $md) {
   .article {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
 
     &__title-wrapper {
       justify-content: flex-start;
@@ -94,6 +96,8 @@
 
 @media (min-width: $xl) {
   .article {
+    padding: 10px;
+
     &__title {
       font-size: 36px;
       line-height: 43px;
@@ -114,6 +118,9 @@
 
 @media (min-width: $xxl) {
   .article {
+    max-width: 1200px;
+    padding: 5px;
+
     &__title {
       font-size: 48px;
       line-height: 58px;
